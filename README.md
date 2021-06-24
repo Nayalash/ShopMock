@@ -1,3 +1,3 @@
 # ShopMock
 
-### More details are soon to come....
+React.js Full Stack E-commerce Site (Payments, Testing, Infra, OAuth)
