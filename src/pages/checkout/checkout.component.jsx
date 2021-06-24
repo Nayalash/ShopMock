@@ -37,6 +37,15 @@ const CheckoutPage = ({ cartItems, total }) => (
     ))}
     <div className='total'>TOTAL: ${total}</div>
 
+    <div className='test-warning'>
+      * This App Uses Test Version of Stripe. *
+      Use The Following For Credit Card Info
+      <br/>
+      Card: 4242 4242 4242 4242
+      Exp: 01/24
+      CCV: 123
+    </div>
+
     <StripeCheckoutButton price={total} />
 
   </div>
